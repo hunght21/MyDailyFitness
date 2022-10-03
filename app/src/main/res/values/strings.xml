@@ -1,0 +1,316 @@
+<resources>
+    <string name="app_name">HustCare</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="onboarding1Tittle">Quick &amp; Easy Practice</string>
+    <string name="onboarding2Tittle">Lively Illustrations</string>
+    <string name="onboarding1Content">The exercises are designed to be easy and suitable for all ages</string>
+    <string name="onboarding2Content">Exercises are illustrated by lively animations that make it easier for users to practice</string>
+    <string name="onboarding3Tittle">Let\'s get started now</string>
+    <string name="onboarding3Content">Spend 10 minutes a day with us to help you get stronger</string>
+    <string name="onboardingTittle">WELCOME TO DAILY FITNESS</string>
+
+    // facebook login
+    <string name="facebook_app_id">487939925999560</string>
+    <string name="fb_login_protocol_scheme">fb487939925999560</string>
+    <string name="facebook_client_token">e874ed685224bd86c8535ada8c2549f5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    // Behavior
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+
+    <attr name="homeAsUpIndicator" format="reference" />
+
+    //Day
+    <string name="seconds">seconds</string>
+    <string name="cycles">cycles</string>
+    <string name="day">Day</string>
+    <string name="day1">Day 1</string>
+    <string name="day10">Day 10</string>
+    <string name="day11">Day 11</string>
+    <string name="day12">Day 12</string>
+    <string name="day13">Day 13</string>
+    <string name="day14">Day 14</string>
+    <string name="day15">Day 15</string>
+    <string name="day16">Day 16</string>
+    <string name="day17">Day 17</string>
+    <string name="day18">Day 18</string>
+    <string name="day19">Day 19</string>
+    <string name="day2">Day 2</string>
+    <string name="day20">Day 20</string>
+    <string name="day21">Day 21</string>
+    <string name="day22">Day 22</string>
+    <string name="day23">Day 23</string>
+    <string name="day24">Day 24</string>
+    <string name="day25">Day 25</string>
+    <string name="day26">Day 26</string>
+    <string name="day27">Day 27</string>
+    <string name="day28">Day 28</string>
+    <string name="day29">Day 29</string>
+    <string name="day3">Day 3</string>
+    <string name="day30">Day 30</string>
+    <string name="day4">Day 4</string>
+    <string name="day6">Day 6</string>
+    <string name="day7">Day 7</string>
+    <string name="day8">Day 8</string>
+    <string name="day9">Day 9</string>
+    //Exercise
+
+    <string name="super_cobra_stretch">super cobra stretch</string>
+    <string name="pilates_roll_over">pilates roll over</string>
+    <string name="hopping_with_one_leg">hopping with one leg</string>
+    <string name="cat_cow_stretch">cat cow stretch</string>
+    <string name="forward_spine_stretch">forward spine stretch</string>
+    <string name="forwheatwrap6times">for wheat wrap * 6 times</string>
+    <string name="forwheatwrap7times">for wheat wrap * 7 times</string>
+    <string name="rope_jumping">rope jumping</string>
+    <string name="plank">plank</string>
+    <string name="triangle_pose">triangle pose</string>
+    <string name="peanutbutter">Peanut butter</string>
+    <string name="pelvic_shift">pelvic shift</string>
+    <string name="spot_jumping">spot jumping</string>
+    <string name="standarddiet">Standard Diet</string>
+    <string name="standing_vertical_stretch">standing vertical stretch</string>
+    <string name="wall_stretch">wall stretch</string>
+    <string name="hands_on_the_head_bow_down">hands on the head bow down</string>
+    <string name="hanging_exercise">hanging exercise</string>
+    <string name="two_straight_legs_up">two straight legs up</string>
+    <string name="table_top">table top</string>
+    <string name="downward_facing_dog_pose">downward facing dog pose</string>
+    <string name="dry_land_swim">dry land swim</string>
+
+    <string name="desc_cat_cow_stretch">Initially, be in tabletop position. Inhale, move your belly towards the floor, lift your chin up in the cow pose. Now, exhale by moving your back and belly upwards towards the ceiling in the cat pose. Repeat it.</string>
+    <string name="desc_downward_facing_dog_pose">Lie down with your face, towards the ground and hands on your side. Now, with the support of your hands, lift the body and move to the table top position. Exhale and lift your hip towards the sky.</string>
+    <string name="desc_dry_land_swim">Lie down with your face, towards the ground and hands stretched forward. Lift your right arm and left leg above the ground. Be in this position. Repeat the same on the other side.</string>
+    <string name="desc_forward_spine_stretch">Sit down on the floor with your legs forward . Now stretch your arms forward. Then return back to the initial position.</string>
+    <string name="desc_hands_on_the_head_bow_down">Keep your hands on the back of your head. Now bend forward. Then return back to the initial position.</string>
+    <string name="desc_hanging_exercise">Initially, hang on a pole. Now raise both your legs. Then return back to the initial position.</string>
+    <string name="desc_hopping_with_one_leg">Initially rest on one leg. Then hop as high as you can, around 10 to 15 times. Repeat it on the other side.</string>
+    <string name="desc_pelvic_shift">Lie on your back with your legs tilted and arms by the side. Now raise your hips and be in this position for some time. Then lower your hips.</string>
+    <string name="desc_pilates_roll_over">Lie on your back with your arms by the side. Now raise your legs together at 90 degree angle. Then exhale, lower your body to a horizontal position and further. Caution : While lowering your body, do not try to stretch beyond your limits. If you feel any discomfort or pain, immediately consult a doctor.</string>
+    <string name="desc_plank">Be on your toes and forearms with your body straight. Stay in this position for as long as possible.</string>
+    <string name="desc_rope_jumping">Rope jumping is skipping. For this you need a skipping rope. Do it in sets of 15 as a beginner. Gradually increase the count.</string>
+    <string name="desc_seated_toe_touch">Sit with your legs stretched forward. Now raise your legs and stretch your body with your arms forward, then touch the knee and if possible the shin and toe.</string>
+    <string name="desc_spot_jumping">Initially, stand on your feet. Now raise your arms straight and upwards, then start jumping. Repeat it for 2 minutes.</string>
+    <string name="desc_standing_vertical_stretch">Stand with your feet wider than your hips. Inhale, stretch your arms over your head and lock your hands. Now inhale and lean towards the left, then exhale and return back to the initial position. Repeat the same on the other side.</string>
+    <string name="desc_super_cobra_stretch">Initially, keep your arms perpendicular to the ground and your spine arched. Bend your hips and bring the body to a V shaped position. Be in this position for sometime and then return back to the initial position.</string>
+    <string name="desc_table_top">Sit with your legs stretched forward with hands on the side and palms touching the ground. Now lift your body by pressing the arms and feet on the ground to make a table like shape. Stay in this position for about 15 seconds and then return back to the initial position. Repeat it.</string>
+    <string name="desc_triangle_pose">Stretch your legs, a little more than the shoulder width. Turn your right toe to the side. Inhale and raise your arms to the side. Exhale and stretch your right hand to touch the shin by tilting your hip, the left hand should be pointing towards the sky. Take two to three long, slow breaths through your nose. Inhale and come back to the initial position. Repeat the same on the other side.</string>
+    <string name="desc_two_straight_legs_up">Lie on your back with your hands by the side. Raise your legs above the ground at 90 degree. Now with the support of your forearms, lift your body and legs further up towards the ceiling, with the hands placed at the back for support.</string>
+    <string name="desc_wall_stretch">Lean against a wall with your hands. Now stretch with your left leg, a feet away from the wall and your right leg, a feet away from your left leg. Repeat on the other side.</string>
+
+    <string name="mon">Monday</string>
+    <string name="tu">Tuesday</string>
+    <string name="thri">Thrusday</string>
+    <string name="fri">Friday</string>
+    <string name="sat">Saturday</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="height">Height</string>
+    <string name="activity_level">Activity level</string>
+    <string name="weight">Weight</string>
+    <string name="target_weight">Target weight</string>
+    <string name="mesurment">Mesurment</string>
+    <string name="cm">cm</string>
+    <string name="feet_inches">feet and inches</string>
+    <string name="kg">kg</string>
+    <string name="pound">pound</string>
+
+
+    <string-array name="array_mesurments">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+
+    <string name="metric">Metric</string>
+    <string name="imperial">Imperial</string>
+
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+
+    <string-array name="array_months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="blank"> </string>
+
+
+    <string-array name="array_activity_levels">
+        <item>Little to no exercise</item>
+        <item>Light exercise (1–3 days per week)</item>
+        <item>Moderate exercise (3–5 days per week)</item>
+        <item>Heavy exercise (6–7 days per week)</item>
+        <item>Very heavy exercise (twice per day, extra heavy workouts)</item>
+    </string-array>
+
+    <string name="i_want_to">I want to</string>
+    <string name="i_want">I want</string>
+    <string name="sign_up">Sign up</string>
+
+    <string name="weekly_goal">Weekly goal</string>
+
+
+    <string-array name="array_weekly_goals">
+        <item>loose weight</item>
+        <item>gain weight</item>
+    </string-array>
+
+    <string-array name="array_weekly_goals_kg">
+        <item>0.5</item>
+        <item>1</item>
+        <item>1.5</item>
+    </string-array>
+
+
+    <string name="kg_each_week">kg each week</string>
+    <string name="pounds_each_week">pounds each week</string>
+
+    <string name="lets_go">Lets go!</string>
+
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="goal">Goal</string>
+    <string name="categories">Categories</string>
+    <string name="food">Food</string>
+
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+
+    <string name="name">Name</string>
+    <string name="parent">Parent</string>
+    <string name="save">Save</string>
+    <string name="are_you_sure_you_want_to_delete">Are you sure you want to delete?</string>
+    <string name="cancel">Cancel</string>
+    <string name="calories_table">Calories table</string>
+    <string name="energy">Energy</string>
+    <string name="proteins">Proteins</string>
+    <string name="carbs">Carbs</string>
+    <string name="fat">Fat</string>
+    <string name="per_hundred_gran">Per 100 gram</string>
+    <string name="per_meal">Per meal</string>
+    <string name="manufactor">Manufactor</string>
+    <string name="about">About</string>
+    <string name="description">Description</string>
+    <string name="general">General</string>
+    <string name="serving">Serving</string>
+    <string name="number">Number</string>
+    <string name="word">Word</string>
+    <string name="barcode">Barcode</string>
+    <string name="category">Category</string>
+    <string name="main">Main</string>
+    <string name="sub">Sub</string>
+    <string name="current_status">Current status</string>
+    <string name="target">Target</string>
+    <string name="my_goal">My goal</string>
+    <string name="status">Status</string>
+    <string name="method">Method</string>
+    <string name="bmr">BMR</string>
+    <string name="numbers">Numbers</string>
+    <string name="diet">Diet</string>
+    <string name="with_activity">With activity</string>
+    <string name="with_activity_and_diet">With activity and diet</string>
+
+    <string name="if_you_want_to_keep_your_weight">If you want to keep your weight</string>
+    <string name="if_you_want_to_loose_weight">If you want to loose weight</string>
+    <string name="if_you_want_to">If you want to</string>
+    <string name="keep_your_weight">Keep your weight</string>
+    <string name="loose_x_kg_week_with_out_exercising">Loose x kg each week with out exercising</string>
+    <string name="without_activity">Without activity</string>
+    <string name="advanced">Advanced</string>
+    <string name="with_activity_">With activity</string>
+    <string name="edit">Edit</string>
+
+    <string name="alias">Alias</string>
+    <string name="activity">Activity</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="before_training">Before training</string>
+    <string name="after_training">After training</string>
+    <string name="dinner">Dinner</string>
+    <string name="snacks">Snacks</string>
+    <string name="supper">Supper</string>
+
+    <string name="portion_size">Portion size</string>
+    <string name="pcs">pcs</string>
+    <string name="gram">gram</string>
+    <string name="add_to_diary">Add to diary</string>
+    <string name="unlink">Unlink</string>
+    <string name="goal_with_activity">Goal with activity</string>
+    <string name="sum">Sum</string>
+    <string name="remaining">Remaining</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="select_meal">Select meal</string>
+
+    <string name="Confusion_dizziness">Confusion, dizziness, exaggerated emotions (anger, fear, grief) impaired visual perception, decreased pain sensation, impaired balance, staggering gait, slurred speech, moderate muscular incoordination</string>
+    <string name="Unconsciousness">Unconsciousness, depressed or abolished reflexes, abnormal body temperature, coma; possible death from respiratory paralysis</string>
+    <string name="Average_individual_appears_normal">Average individual appears normal</string>
+    <string name="Mild_euphoria">Mild euphoria,talkativeness, decreased inhibitions, decreased attention, impaired judgment, increased reaction time</string>
+    <string name="Emotional_instability">Emotional instability, loss of critical judgment, impairment of memory and comprehension, decreased sensory response, mild muscular incoordination</string>
+    <string name="Apathy_impaired">Apathy, impaired consciousness, stupor, significantly decreased response to stimulation, severe muscular incoordination, inability to stand or walk, vomiting, incontinence of urine and feces</string>
+    <string name="font_bold">fonts/proximanova_bold.otf</string>
+    <string name="font_light">fonts/proximanova_light.otf</string>
+    <string name="invite_friends_share_other_message">Hi,\10Check Out Health Calculator Pro.\10 Download Now https://play.google.com/store/apps/details?id=com.pragma.offshore.bmicalculator</string>
+
+    <string name="hour">Hour</string>
+    <string name="Minute">Minute</string>
+    <string name="Day"> Day</string>
+    <string name="lbs">lbs</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Enter_Drink_volume">Enter Drink volume</string>
+    <string name="Enter_Alcohol_level">Enter Alcohol level</string>
+    <string name="Enter_time_passed_sence_drinking"> Enter time passed sense drinking </string>
+    <string name="Enter_weight"> Enter weight </string>
+    <string name="Alcohol_Effects_by_BAC_level">Alcohol Effects by BAC level</string>
+    <string name="BAC_level">Your Blood Alcohol Content level is</string>
+    <string name="transition1">home_transition</string>
+    <string name="backtext">Back</string>
+
+    <string name="Normal">Normal</string>
+    <string name="Normal_Blood_Pressure">Normal Blood Pressure</string>
+    <string name="Enter_systolic_value">Enter systolic value</string>
+    <string name="Enter_diastolic_value">Enter diastolic value</string>
+    <string name="Prehypertension">Prehypertension</string>
+    <string name="High_Blood_Pressure_Stage_1">High Blood Pressure (Hypertension) Stage 1</string>
+    <string name="High_Blood_Pressure_Stage_2">High Blood Pressure (Hypertension) Stage 2</string>
+
+    <string name="Hypertensive_Crisis_Emergency_care_needed">Hypertensive Crisis.Emergency care needed</string>
+    <string name="upper_result">Upper Result :</string>
+    <string name="lower_result">Lower Result :</string>
+
+
+</resources>

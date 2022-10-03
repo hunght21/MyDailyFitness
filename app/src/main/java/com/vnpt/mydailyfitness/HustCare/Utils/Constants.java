@@ -1,0 +1,16 @@
+package com.vnpt.mydailyfitness.HustCare.Utils;
+
+public class Constants {
+
+    public static String KEY_language = "language";
+    public static String KEY_prev_phone_lang = "prev_phone_lang";
+    public static String KEY_remove_ad = "remove_ad";
+    public static String Loopbots_sharedpreference = "Loopbots";
+
+    public static String KEY_PROGRESS = "Progress";
+    public static int TOTAL_DAYS=30;
+    public static int REST_TIME=30;
+    public static int EXERCISE_TIME=60;
+    public static int TIME_TO_GO_TIME=10;
+
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "424182262651",
+    "project_id": "dailyfitness-4c1c9",
+    "storage_bucket": "dailyfitness-4c1c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424182262651:android:67bba8d2b77d69e7ffabde",
+        "android_client_info": {
+          "package_name": "com.vnpt.mydailyfitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424182262651-8c52sfmauqaeq2t8pl464v8d596vmq5l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vnpt.mydailyfitness",
+            "certificate_hash": "9f52e367a5aa06bfc234f4db6b8b04e0313a8651"
+          }
+        },
+        {
+          "client_id": "424182262651-mdqeqbv68v8bit9agv5ipqv0bq3q5p6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy_f-7Ge8fUv-axgTr-f3v99hACuKR5GI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424182262651-mdqeqbv68v8bit9agv5ipqv0bq3q5p6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/hopping_with_one_leg_a" android:duration="400"/>
+    <item android:drawable="@drawable/hopping_with_one_leg_b" android:duration="400"/>
+    <item android:drawable="@drawable/hopping_with_one_leg_a" android:duration="400"/>
+</animation-list>

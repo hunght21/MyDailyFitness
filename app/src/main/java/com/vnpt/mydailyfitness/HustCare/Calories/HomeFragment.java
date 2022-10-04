@@ -103,7 +103,7 @@ public class HomeFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
         /* Set title */
-        ((FragmentActivity)getActivity()).getSupportActionBar().setTitle("Home");
+        ((FragmentActivity)getActivity()).getSupportActionBar().setTitle("Your Nutrition");
 
         // getDataFromDbAndDisplay
         initalizeHome();

@@ -11,6 +11,5 @@
         android:layout_gravity="center"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        android:src="@mipmap/ic_launcher"
         tools:ignore="ContentDescription" />
 </FrameLayout>

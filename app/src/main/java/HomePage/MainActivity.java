@@ -24,6 +24,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -55,7 +56,7 @@ import java.util.List;
 import Reminder.CalculatorFragment;
 import Reminder.FragmentReminder;
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, ProfileFragment.OnFragmentInteractionListener {
     private static final String TAG = "MainActivity";
     Button btnSignOut;
     private BottomNavigationView bottomNavigationView;
@@ -72,6 +73,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private MainExerciseActivity mainExerciseActivity;
     private ImageView userImage;
     private TextView userEmail,userName;
+    private ProfileFragment.OnFragmentInteractionListener mListener;
 
     private static final int FRAGMENT_HOME=1;
     private static final int FRAGMENT_WORKOUT=2;
@@ -315,9 +317,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             openRestartDialog(Gravity.CENTER);
 
         } else if(id==R.id.user_profile){
-            Intent intent=new Intent(this, ProfileFragment.class);
-            startActivity(intent);
-            MainActivity.this.finish();
+            fragmentClass = ProfileFragment.class;
 
         } else if(id==R.id.sign_out){
             FirebaseAuth.getInstance().signOut();
@@ -325,8 +325,26 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             startActivity(intent);
             MainActivity.this.finish();
         }
+
+        try {
+            fragment = (Fragment) fragmentClass.newInstance();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        try {
+            fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, fragment).commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+            Toast.makeText(this, "Error: " + e.toString(), Toast.LENGTH_LONG).show();
+        }
+
         this.drawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
 
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+    }
 }

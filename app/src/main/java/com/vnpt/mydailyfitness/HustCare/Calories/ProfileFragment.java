@@ -27,6 +27,7 @@ import com.vnpt.mydailyfitness.R;
 
 import java.util.Calendar;
 
+import HomePage.MainActivity;
 
 
 public class ProfileFragment extends Fragment {
@@ -71,7 +72,7 @@ public class ProfileFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
         /* Set title */
-        ((FragmentActivity)getActivity()).getSupportActionBar().setTitle("Profile");
+        ((MainActivity)getActivity()).getSupportActionBar().setTitle("Profile");
 
         // getDataFromDbAndDisplay
         initalizeGetDataFromDbAndDisplay();
